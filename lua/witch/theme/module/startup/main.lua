@@ -1529,6 +1529,21 @@ M.syntax = function(colors, theme_style)
 				link = "Comment",
 			},
 		},
+
+		-- Dap
+		{
+			"DapBreakpoint",
+			{
+				fg = colors.red,
+			},
+		},
+
+		{
+			"DapStopped",
+			{
+				fg = colors.green,
+			},
+		},
 	}
 end
 
